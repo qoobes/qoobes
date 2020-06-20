@@ -1,0 +1,165 @@
+/* ------------------------------------------------------------ */
+/* Basic setup section */
+/* ------------------------------------------------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(images/background2.gif) no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    overflow-x: hidden;
+}
+
+section {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------ */
+/* General Link Styles */
+/* ------------------------------------------------------------ */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------------------------------------------ */
+/* Custom scrollbar */
+/* ------------------------------------------------------------ */
+
+::selection {   
+    background: rgba(29,31,33,0.2);
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+body::-webkit-scrollbar-track {
+    background-color: #1d1f21;
+}
+ 
+body::-webkit-scrollbar-thumb {
+      background-color: rgba(255,255,255,0.2);
+}
+
+/* ------------------------------------------------------------ */
+/* Cover for the background */
+/* ------------------------------------------------------------ */
+
+#background-cover {
+    position: fixed;
+    margin: auto;
+    z-index: -1;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background-color: rgba(29, 31, 33, 0.75);
+}
+
+
+/* ------------------------------------------------------------ */
+/* Front-page */
+/* ------------------------------------------------------------ */
+
+#frontpage {
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.bottompage {
+    z-index: 2000;
+    flex-direction: row;
+    margin-left: 3rem;
+}
+
+#social {
+    margin-top: auto;
+}
+
+#social svg {
+    fill: white;
+    width: 2.7rem;
+    margin-right: 1.5rem;
+    transition: transform 200ms;
+}
+
+#discordsvg {
+    cursor: pointer;
+}
+
+#social svg:hover {
+    transform: scale(1.2);
+}
+
+#linkbox {
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+}
+
+#linkbox a {
+    display: inline-block;
+    margin-right: 1rem;
+    transition: transform 200ms;
+}
+
+#linkbox a:hover {
+    transform: translateY(-0.3rem);
+}
+
+/* ------------------------------------------------------------ */
+/* Front-page */
+/* ------------------------------------------------------------ */
+
+#mainpage {
+    z-index: 2000;
+}
+
+#bigwhitething {
+    background-color: white;
+    width: 38rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 100%;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+}
+
+/* ------------------------------------------------------------ */
+/* pfp section */
+/* ------------------------------------------------------------ */
+
+#pfp {
+    float: left;
+    margin-right: 1rem;
+    border-radius: 50%;
+    margin-top: -7px;
+    cursor: pointer;
+    border: 0.2rem solid rgba(2, 2, 2, 0);
+    transition: border 200ms, transform 200ms;
+}
+
+#pfp:hover {
+    border: 0.2rem solid #43b581;
+    transform: scale(1.1);
+    transform: rotate(17deg);
+}
+
+
+/* WOAH section */
+
+#woah {
+    text-align: left;
+}
+
+#projects code {
+    font-weight: 100;
+}
