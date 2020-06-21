@@ -1,5 +1,5 @@
 'use strict'
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-    window.scrollTo(0, 0)
+    // window.scrollTo(0, 0)
   });
