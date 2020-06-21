@@ -165,3 +165,11 @@ body::-webkit-scrollbar-thumb {
 #projects code {
     font-weight: 100;
 }
+
+/* Interests section */
+
+#interests svg {
+    width: 10rem;
+    fill: darkred;
+    margin-bottom: 7rem;
+}
