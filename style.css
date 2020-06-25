@@ -150,6 +150,7 @@ body::-webkit-scrollbar-thumb:hover {
     min-height: 100vh;
     border-radius: 3rem;
     padding: 1rem;
+    padding-bottom: 6rem;
     height: 100%;
     margin-left: 1.5rem;
     margin-top: 4rem;
