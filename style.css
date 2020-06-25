@@ -11,16 +11,24 @@ html {
 }
 
 body {
-    background: url(images/background2.gif) no-repeat center center fixed;
+    background: url(images/bg2lower.gif) no-repeat center center fixed;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: optimize-contrast;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
     background-size: cover;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #666;
+    line-height: 1.5;
     overflow-x: hidden;
 }
 
 section {
     text-align: center;
+    display: block;
 }
 
 /* ------------------------------------------------------------ */
@@ -66,7 +74,8 @@ body::-webkit-scrollbar-thumb:hover {
     margin: auto;
     z-index: -1;
     top: 0; bottom: 0; left: 0; right: 0;
-    background-color: rgba(29, 31, 33, 0.75);
+    /* background-color: rgba(29, 31, 33, 0.75); */
+    background-color: #1d1f21; opacity: 0.8;
 }
 
 
@@ -85,7 +94,7 @@ body::-webkit-scrollbar-thumb:hover {
 .bottompage {
     z-index: 2000;
     flex-direction: row;
-    margin-left: 3rem;
+    margin-left: 4.5rem;
 }
 
 #social {
@@ -109,7 +118,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 #linkbox {
     margin-top: 2.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     font-size: 2.5rem;
 }
 
@@ -149,10 +158,10 @@ body::-webkit-scrollbar-thumb:hover {
     width: calc(32rem + 6rem);
     min-height: 100vh;
     border-radius: 3rem;
-    padding: 1rem;
+    padding: 1.5rem;
     padding-bottom: 6rem;
     height: 100%;
-    margin-left: 1.5rem;
+    margin-left: 4.5rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -198,7 +207,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* MIsc seciton {global style} */
 .descriptor {
-    display: flex;
+    display: block;
     text-align: center;
     margin-left: 3rem; margin-right: 3rem;
     padding-left: 3rem; padding-right: 3rem;
