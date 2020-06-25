@@ -49,6 +49,11 @@ body::-webkit-scrollbar-thumb {
       background-color: rgba(255,255,255,0.2);
 }
 
+body::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1);
+}
+
 /* ------------------------------------------------------------ */
 /* Cover for the background */
 /* ------------------------------------------------------------ */
@@ -88,7 +93,7 @@ body::-webkit-scrollbar-thumb {
     fill: white;
     width: 2.7rem;
     margin-right: 1.5rem;
-    transition: transform 200ms;
+    transition: transform cubic-bezier(0.6, -0.48, 0.735, 0.045) 200ms;
 }
 
 #discordsvg {
@@ -123,11 +128,24 @@ body::-webkit-scrollbar-thumb {
     z-index: 2000;
 }
 
+#mainpage a {
+    color: #666;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: color 200ms, transform cubic-bezier(0.6, -0.48, 0.735, 0.045) 200ms;
+}
+
+#mainpage a:hover {
+    color: #222;
+    transform: scale(1.1);
+}
+
 #bigwhitething {
     background-color: white;
-    width: 38rem;
+    width: calc(32rem + 6rem);
     min-height: 100vh;
-    border-radius: 1rem;
+    border-radius: 3rem;
     padding: 1rem;
     height: 100%;
     margin-left: 1.5rem;
@@ -172,4 +190,13 @@ body::-webkit-scrollbar-thumb {
     width: 10rem;
     fill: darkred;
     margin-bottom: 7rem;
+}
+
+/* MIsc seciton {global style} */
+.descriptor {
+    display: flex;
+    text-align: center;
+    margin-left: 3rem; margin-right: 3rem;
+    padding-left: 3rem; padding-right: 3rem;
+
 }
