@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: url(images/bg2lower.gif) no-repeat center center fixed;
+    background: url(images/background2.gif) no-repeat center center fixed;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     image-rendering: optimize-contrast;
@@ -110,6 +110,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 #discordsvg {
     cursor: pointer;
+}
+
+#mailsvg {
+    transform: translateY(-2px);
 }
 
 #social svg:hover {
