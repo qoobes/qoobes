@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // animate()
   setTimeout(() => {
     stopAnimation()
-  }, 8500)
+  }, 10000)
 });
 
 const stopAnimation = () => {
