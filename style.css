@@ -2,6 +2,14 @@
 /* Basic setup section */
 /* ------------------------------------------------------------ */
 
+.hidden {
+    display: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
 .blankspace {
     height: 3rem;
 }
@@ -222,4 +230,46 @@ body::-webkit-scrollbar-thumb:hover {
 
 #mainscroll {
     height: 1rem;
+}
+
+/* Enter animation css */
+
+#animationContainer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin: auto;
+    z-index: 9999;
+    top: 0; bottom: 0; left: 0; right: 0;
+    /* background-color: rgba(29, 31, 33, 0.75); */
+    background-color: #1d1f21;
+}
+
+#skipAnimation {
+    background-color: #ACDACD;
+    position: absolute;
+    justify-self: right;
+    /* align-self: ; */
+    margin-left: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: auto;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: filter 200ms, transform cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms;
+}
+
+#skipAnimation:hover {
+    filter: brightness(0.8);
+}
+
+#skipAnimation:active {
+    transform: scale(1.1);
+}
+
+#skipAnimation:active, #skipAnimation:hover, #skipAnimation:visited, #skipAnimation:focus {
+    border: none;
+    outline: none;
 }
