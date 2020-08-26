@@ -52,18 +52,18 @@ a {
 /* Custom scrollbar */
 /* ------------------------------------------------------------ */
 
-::selection {   
+::selection {
     background: rgba(29,31,33,0.2);
 }
 
 body::-webkit-scrollbar {
     width: 12px;
 }
- 
+
 body::-webkit-scrollbar-track {
     background-color: #1d1f21;
 }
- 
+
 body::-webkit-scrollbar-thumb {
       background-color: rgba(255,255,255,0.2);
 }
@@ -122,6 +122,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 #mailsvg {
     transform: translateY(-2px);
+}
+
+#linkedin {
+    transform: translateY(-3px);
 }
 
 #social svg:hover {
