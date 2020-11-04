@@ -173,6 +173,10 @@ body::-webkit-scrollbar-thumb:hover {
 	transform: scale(1.1);
 }
 
+#mainLineBreak {
+	margin: -0.5rem 0 !important;
+}
+
 #bigwhitething {
 	background-color: white;
 	width: calc(32rem + 6rem);
