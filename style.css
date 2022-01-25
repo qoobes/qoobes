@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------ */
 /* Basic setup section */
 /* ------------------------------------------------------------ */
-
+/* 
 .hidden {
 	display: none;
 }
@@ -37,22 +37,22 @@ body {
 section {
 	text-align: center;
 	display: block;
-}
+} */
 
 /* ------------------------------------------------------------ */
 /* General Link Styles */
 /* ------------------------------------------------------------ */
 
-a {
+/* a {
 	text-decoration: none;
 	color: white;
-}
+} */
 
 /* ------------------------------------------------------------ */
 /* Custom scrollbar */
 /* ------------------------------------------------------------ */
 
-::selection {
+/* ::selection {
 	background: rgba(29, 31, 33, 0.2);
 }
 
@@ -71,12 +71,12 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
 	cursor: pointer;
 	background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
 /* ------------------------------------------------------------ */
 /* Cover for the background */
 /* ------------------------------------------------------------ */
-
+/* 
 #background-cover {
 	position: fixed;
 	margin: auto;
@@ -85,16 +85,15 @@ body::-webkit-scrollbar-thumb:hover {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	/* background-color: rgba(29, 31, 33, 0.75); */
 	background-color: #1d1f21;
 	opacity: 0.8;
-}
+} */
 
 /* ------------------------------------------------------------ */
 /* Front-page */
 /* ------------------------------------------------------------ */
 
-#frontpage {
+/* #frontpage {
 	color: white;
 	min-height: 100vh;
 	display: flex;
@@ -149,13 +148,13 @@ body::-webkit-scrollbar-thumb:hover {
 
 #linkbox a:hover {
 	transform: translateY(-0.3rem);
-}
+} */
 
 /* ------------------------------------------------------------ */
 /* Front-page */
 /* ------------------------------------------------------------ */
 
-#mainpage {
+/* #mainpage {
 	z-index: 2000;
 }
 
@@ -188,13 +187,13 @@ body::-webkit-scrollbar-thumb:hover {
 	margin-left: 4.5rem;
 	margin-top: 4rem;
 	margin-bottom: 4rem;
-}
+} */
 
 /* ------------------------------------------------------------ */
 /* pfp section */
 /* ------------------------------------------------------------ */
 
-#pfp {
+/* #pfp {
 	float: left;
 	margin-right: 1rem;
 	border-radius: 50%;
@@ -209,46 +208,46 @@ body::-webkit-scrollbar-thumb:hover {
 #pfp:hover {
 	border: 0.2rem solid #43b581;
 	transform: scale(1.1);
-	transform: rotate(17deg);
-}
+	transform: rotate(17deg); 
+}*/
 
 /* WOAH section */
 
-#woah {
+/* #woah {
 	text-align: left;
 }
 
 #projects code {
 	font-weight: 100;
-}
+} */
 
 /* Interests section */
 
-#interests svg {
+/* #interests svg {
 	width: 10rem;
 	fill: darkred;
-	margin-bottom: 7rem;
-}
+	margin-bottom: 7rem; 
+}*/
 
 /* MIsc seciton {global style} */
-.descriptor {
+/* .descriptor {
 	display: block;
 	text-align: center;
 	margin-left: 3rem;
 	margin-right: 3rem;
 	padding-left: 3rem;
-	padding-right: 3rem;
-}
+	padding-right: 3rem; 
+}*/
 
 /*  misc settings */
 
-#mainscroll {
+/* #mainscroll {
 	height: 1rem;
-}
+} */
 
 /* Enter animation css */
 
-#animationContainer {
+/* #animationContainer {
 	display: flex;
 	align-items: center;
 	position: fixed;
@@ -258,15 +257,13 @@ body::-webkit-scrollbar-thumb:hover {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	/* background-color: rgba(29, 31, 33, 0.75); */
 	background-color: #1d1f21;
-}
-
+} */
+/* 
 #skipAnimation {
 	background-color: #acdacd;
 	position: absolute;
 	justify-self: right;
-	/* align-self: ; */
 	margin-left: 2rem;
 	padding: 1rem 2rem 1rem 2rem;
 	margin-top: auto;
@@ -298,4 +295,4 @@ body::-webkit-scrollbar-thumb:hover {
 #contactme {
 	text-underline-position: under;
 	text-decoration: underline;
-}
+} */
